@@ -10,5 +10,9 @@ This project aims to obtain insight into Walmart's sales data to comprehend the 
 
 # About Data
 
-The dataset was obtained from the [the Kaggle Walmart Sales Forecasting Competition.](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting). This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 1000 rows.
+The dataset was obtained from the [the Kaggle Walmart Sales Forecasting Competition.](https://www.kaggle.com/c/walmart-recruiting-store-sales-forecasting) This dataset contains sales transactions from three different branches of Walmart, respectively located in Mandalay, Yangon, and Naypyitaw. The data contains 17 columns and 1000 rows.
 
+| Column  | Description | Data Type |
+| ------------- | ------------- | ------------ |
+| invoice_id	  | Invoice of the sales made	  | VARCHAR(30) |
+| branch  |Branch at which sales were made	  | VARCHAR(5)  |  
