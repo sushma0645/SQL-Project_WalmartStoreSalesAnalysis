@@ -21,7 +21,7 @@ The dataset was obtained from the [the Kaggle Walmart Sales Forecasting Competit
 | city                    | The location of the branch              | VARCHAR(30)    |
 | customer_type           | The type of the customer                | VARCHAR(30)    |
 | gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
-| product_line            | Product line of the product solf        | VARCHAR(100)   |
+| product_line            | Product line of the product sold        | VARCHAR(100)   |
 | unit_price              | The price of each product               | DECIMAL(10, 2) |
 | quantity                | The amount of the product sold          | INT            |
 | VAT                 | The amount of tax on the purchase       | FLOAT(6, 4)    |
@@ -58,11 +58,11 @@ The dataset was obtained from the [the Kaggle Walmart Sales Forecasting Competit
 
 2. **Feature Engineering:** This will enable us to create some new columns out of the ones that already exist.
 
-> 1. To provide insight into sales in the morning, afternoon, and evening, add a new column called `time_of_day'. This will assist in addressing the query of what time of day most sales occur.
+> 1. To provide insight into sales in the morning, afternoon, and evening, add a new column called `time_of_day`. This will assist in addressing the query of what time of day most sales occur.
 
-> 2. To record the extracted days of the week on which the provided transaction occurred, add a new column called `day_name' (Mon, Tue, Wed, Thur, Fri). This will assist in addressing the query of which day of the week each branch is busiest.
+> 2. To record the extracted days of the week on which the provided transaction occurred, add a new column called `day_name` (Mon, Tue, Wed, Thur, Fri). This will assist in addressing the query of which day of the week each branch is busiest.
 
-> 3. Create a new column called 'month_name' with the extracted months (Jan, Feb, Mar) of the year that the given transaction occurred. Assist in identifying the month with the most profit and sales for the year.
+> 3. Create a new column called `month_name` with the extracted months (Jan, Feb, Mar) of the year that the given transaction occurred. Assist in identifying the month with the most profit and sales for the year.
 
 2. **Exploratory Data Analysis (EDA):** Exploratory data analysis is done to answer the listed questions and aims of the project.
 
